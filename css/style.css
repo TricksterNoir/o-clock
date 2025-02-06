@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color: green;
+    height: 100vh;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 0.1rem;
+    border: 0.5rem solid #046910;
+    width: 50vw;
+    height: 50vh;
+    color: white;
+    font-family: "DS-digital", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.mode{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.clock-hours{
+    display: flex;
+    height: 25vh;
+}
+
+.date{
+    display: flex;
+    gap: 1rem;
+}
+
+.title{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+    height: 7vh;
+}
+
+.sub-title{
+    font-family: "Bebas neue", sans-serif;
+    font-size: 2rem;
+    background-color: transparent;
+    border:none;
+    color: green;
+}
+
+.sub-title:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn-start{
+    font-family: "Bebas neue", sans-serif;
+    font-size: 2rem;
+    background-color: transparent;
+    border:none;
+    color: green;    
+}
+
+.btn-start:hover{
+    cursor: pointer;
+    background-color: white;
+}

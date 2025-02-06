@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
+    <title>O'Clock</title>
+</head>
+<body>
+    <div class="home">
+        <h1 class="title">O'CLOCK</h1>
+        <div class="mode">
+            <button class="sub-title" onclick="showDigitalClock()">Digital Clock</button>
+            <button class="sub-title" onclick="showStopwatch()">Stopwatch</button>
+        </div>
+        <button id="startStopBtn" class="btn-start" style="display:flex"; onclick="startStopwatch()">Start</button>
+        <div class="clock">
+            <div class="clock-hours">
+                <h1 id="hours">00:00:00</h1> 
+            </div>
+            <div class="date">
+                <h3 class="month">months</h3>
+                <h3 class="year">0000</h3>
+            </div>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
